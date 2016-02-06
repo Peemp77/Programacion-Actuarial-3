@@ -7,19 +7,19 @@ output: html_document
 
 #Materias cursadas
 
-* Matemáticas básicas 9
-* Problemas de Matemáticas básicas 9
-* Programación Actuarial I 8
+* MatemÃ¡ticas bÃ¡sicas 9
+* Problemas de MatemÃ¡ticas bÃ¡sicas 9
+* ProgramaciÃ³n Actuarial I 8
 * DHPC 9
-* Conceptos de Cálculo 7
-* Introducción a la profesión actuarial 7
+* Conceptos de CÃ¡lculo 7
+* IntroducciÃ³n a la profesiÃ³n actuarial 7
 * Teoria de ecuaciones 8
-* Geometría analítica 9
+* GeometrÃ­a analÃ­tica 9
 * Calculo diferencial 8
-* Programación ACtuarial II 9
-* Teoría del Interés I 8
-* Microeconomía 8
-* Álgebra Lineal I 8
-* Cálculo Integral 7
-* Teoría del interés II 7
-* Macroeconomía 
+* ProgramaciÃ³n ACtuarial II 9
+* TeorÃ­a del InterÃ©s I 8
+* MicroeconomÃ­a 8
+* Ãlgebra Lineal I 8
+* CÃ¡lculo Integral 7
+* TeorÃ­a del interÃ©s II 7
+* MacroeconomÃ­a 8
