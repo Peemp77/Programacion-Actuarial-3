@@ -1,0 +1,25 @@
+---
+title: "Calificaciones"
+author: "Pablo Hernandez"
+date: "5 de febrero de 2016"
+output: html_document
+---
+
+#Materias cursadas
+
+* Matemáticas básicas 9
+* Problemas de Matemáticas básicas 9
+* Programación Actuarial I 8
+* DHPC 9
+* Conceptos de Cálculo 7
+* Introducción a la profesión actuarial 7
+* Teoria de ecuaciones 8
+* Geometría analítica 9
+* Calculo diferencial 8
+* Programación ACtuarial II 9
+* Teoría del Interés I 8
+* Microeconomía 8
+* Álgebra Lineal I 8
+* Cálculo Integral 7
+* Teoría del interés II 7
+* Macroeconomía 
