@@ -7,19 +7,28 @@ output: html_document
 
 #Materias cursadas
 
+## Primer Semestre
+
 * Matemáticas básicas 9
 * Problemas de Matemáticas básicas 9
 * Programación Actuarial I 8
 * DHPC 9
 * Conceptos de Cálculo 7
 * Introducción a la profesión actuarial 7
+
+##Segundo Semestre
+
 * Teoria de ecuaciones 8
 * Geometría analítica 9
 * Calculo diferencial 8
-* Programación ACtuarial II 9
+* Programación Actuarial II 5
 * Teoría del Interés I 8
 * Microeconomía 8
+
+##Tercer Semestre 
+
 * Álgebra Lineal I 8
 * Cálculo Integral 7
 * Teoría del interés II 7
 * Macroeconomía 8
+* Programación Actuarial II 9
