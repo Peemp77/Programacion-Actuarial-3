@@ -183,3 +183,48 @@ nrow(datosCompletos)
 dim(datosCompletos)
 dim(datosCompletos)[1]
 sum(complete.cases(airquality))
+
+contador <- 0
+
+while (contador <= 10) {
+    print(contador)
+    contador <- contador + 1
+}
+
+while (contador > -10) {
+    print(contador)
+    contador <- contador + 1
+    if (contador> 10000) {
+        print(paste("el contador ya alcanzó el valor",contador))
+        break
+        
+    }
+}
+
+
+z <- 5
+a <- 0
+
+
+while (z>=3 && z<=10) {
+a <- a + 1 
+foo <- c(foo,z)
+
+    v <- runif(1,0,1)
+    
+    if ( v <0.5 ) {
+       moneda <- 1
+       
+     }  else {
+       moneda <-0
+    }
+    
+   if (moneda == 1) {
+      z <- z - 1
+     } else {
+      z <- z + 1
+   }  
+}
+foo
+
+
