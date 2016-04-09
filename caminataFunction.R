@@ -1,3 +1,4 @@
+
 CaminataAleatoria <- function(y,x){
     
     faa <- c()
