@@ -25,5 +25,5 @@ corr <- function(directorio="specdata/", horizonte=0) {
     }
     return(correlacion)
 }
-corr(,1)
+corr(,150)
  
