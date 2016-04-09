@@ -11,6 +11,5 @@ nobs <- c()
 data.frame(id, nobs)    
 }
 
-completos("specdata/",10:11)
 
 

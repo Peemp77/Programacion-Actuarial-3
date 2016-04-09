@@ -10,5 +10,5 @@ a1 <- numeric()
 mean(a1, na.rm = TRUE)  
 }
  
-mediacontaminante(,,23)
+
 

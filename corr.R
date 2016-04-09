@@ -1,29 +1,18 @@
 
-completos <- function(directorio = "specdata/", id = 1:332){
-    foo <- c()
+
+corr <- function(directorio="specdata", horizonte=0) {
     
-    for(i in id){
-        bar <- read.csv(paste(directorio,formatC(i, width = 3,flag = "0"), ".csv", sep = ""))
+    data <- completos()
+    kor <- data[data["nobs"] > horizonte,]$id
+    data1 <- numeric()
+    
+        for (i in kor) {
+            nr <- read.csv(paste(directorio,"/", formatC(i, width = 3, flag = "0"),".csv", sep = "")) 
+            nr1<- nr[complete.cases(nr),]
+            data1 <- c(data1 ,cor(nr1$sulfate,nr1$nitrate))    
+        }                            
         
-        b <- complete.cases(bar)
-        foo <- c(sum(b),foo)
-    }
-    
-    data.frame(foo)    
+data1
 }
 
-corr <- function(directorio="specdata/", horizonte=0) {
-    
-    perro = completos()
-    kor = perro[perro["nobs"] > horizonte, ]$id
-    correlacion = numeric()
-    for (i in kor) {
-        
-        nread = read.csv(paste(directorio, formatC(i, width = 3, flag = "0"),".csv", sep = ""))
-        perro2 = nread[complete.cases(newRead), ]
-        correlacion = c(correlacion, cor(perro2$sulfate, dff$nitrate))
-    }
-    return(correlacion)
-}
-corr(,150)
- 
+
