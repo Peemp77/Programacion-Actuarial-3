@@ -227,4 +227,56 @@ foo <- c(foo,z)
 }
 foo
 
+sum
+plot
+
+misuma <- function(x,y){
+    x + y
+}
+
+
+misuma(1,5)
+misuma(1:5,1:5)
+
+mayor10 <- function(x){
+    x[x>10]
+}
+mayor10(1:20)
+
+
+
+
+airquality
+
+promedioCols <- function(x){
+    nc <- ncol(x)
+    medias <- vector("numeric",nc)
+    for(i in 1:nc){
+        medias[i] <- mean(x[,i],na.rm = TRUE)
+    }
+    medias    
+}
+
+promedioCols(airquality)
+
+
+#Funciones
+
+??swirl
+
+hacer.potencia <- function(n){
+
+    potencia <- function(x){
+        x^n
+    }    
+    potencia
+}
+
+cubica <- hacer.potencia(3)
+cuadrada <- hacer.potencia(2)
+
+cubica(3)
+cuadrada(3)
+
+
 
